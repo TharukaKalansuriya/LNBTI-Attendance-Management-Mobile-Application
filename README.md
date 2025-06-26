@@ -1,16 +1,28 @@
-# android
+📱 LNBTI Attendance Management App
+This is a mobile application developed for LNBTI University to streamline and modernize the student attendance process. The app allows students to track their daily attendance and also enables them to mark attendance by scanning QR codes provided in classrooms.
 
-A new Flutter project.
+🔧 Technologies Used
+Flutter – for cross-platform mobile app development
 
-## Getting Started
+Firebase – for real-time database, authentication, and cloud functions
 
-This project is a starting point for a Flutter application.
+✨ Key Features
+📊 View Attendance Records – Students can view their attendance history anytime.
 
-A few resources to get you started if this is your first Flutter project:
+📷 QR Code Scanning – Instantly mark attendance by scanning a QR code in the classroom.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+🔐 Secure Login – Firebase Authentication ensures secure access.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+☁️ Real-time Sync – Firebase keeps the data up-to-date across all devices.
+
+📦 Getting Started
+To run this project locally:
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+flutter pub get
+flutter run
+Make sure Firebase is properly configured (with google-services.json for Android or GoogleService-Info.plist for iOS).
